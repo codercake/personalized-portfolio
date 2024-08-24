@@ -10,7 +10,7 @@ export const Bio = {
     "I am a proactive individual eagerly seeking opportunities to diversify and strengthen my skill set. With a passion for coding, web development and emerging technologies, I thrive on challenges that set me apart. I enjoy reading novels and browsing informative content!",
   github: "https://github.com/codercake",
   resume:
-    "https://drive.google.com/file/d/1lJlvn_IvuFHyUBHbPKKxqoj3WAHCoZ98/view?usp=sharing",
+    "https://drive.google.com/file/d/1t07iRUstc6KEncrkhfxr54W0l-ZIMThQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
   insta: "https://www.instagram.com/ishithaaac_/",
   unstop: "https://unstop.com/u/codercake?edit=profile",
