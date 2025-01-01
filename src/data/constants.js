@@ -1,18 +1,19 @@
 export const Bio = {
   name: "Ishitha Chaudhary",
   roles: [
-    "Software Developer",
+    "Full-stack Intern",
     "Public Speaker",
-    "Programmer",
+    "Cyber Security Enthusiast",
     "Freelancer",
   ],
   description:
-    "I am a proactive individual eagerly seeking opportunities to diversify and strengthen my skill set. With a passion for coding, web development and emerging technologies, I thrive on challenges that set me apart. I enjoy reading novels and browsing informative content!",
+    `Hello, there.
+  I'm Ishitha, a proactive individual eagerly seeking opportunities to diversify and strengthen my skill set. With a passion for coding, web development and emerging technologies, I thrive on challenges that set me apart. When I'm not tinkering with  my laptop, I enjoy reading novels and browsing informative content!`,
+
   github: "https://github.com/codercake",
   resume:
-    "https://drive.google.com/file/d/1t07iRUstc6KEncrkhfxr54W0l-ZIMThQ/view?usp=sharing",
+    "https://drive.google.com/file/d/1Egc52Yvcl3pHDv_cYuK6oBmkLmc4rG9s/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
-  insta: "https://www.instagram.com/ishithaaac_/",
   unstop: "https://unstop.com/u/codercake?edit=profile",
 };
   
@@ -235,17 +236,18 @@ export const Bio = {
       id: 1,
       title: "FirstPost",
       date: "Dec 2023",
-      description:
-        "A platform utilizing Next.js, a React framework for efficient server-side rendering, routing and enhancing optimisation.",
-      image:
+      description: 
+        "FirstPost is a modern news application built using Next.js, providing efficient server-side rendering and seamless routing for optimal performance. The platform delivers real-time news updates, personalized categories, and enhanced optimization for user engagement. The app also focuses on responsive design and efficient deployment through Vercel with integrated CI/CD workflows.",
+      image: 
         "https://user-images.githubusercontent.com/81632171/225243985-4c87e3af-92a9-4d93-aaf8-e7aed5f0cf80.png",
       tags: [
-        "Next.js",
-        "JavaScript",
-        "Typescript",
-        "CSS",
-        "Vercel",
-        "CI/CD",
+        "Next.js", 
+        "JavaScript", 
+        "TypeScript", 
+        "CSS", 
+        "Vercel", 
+        "CI/CD", 
+        "REST API"
       ],
       category: "web app",
       github: "https://github.com/codercake/firstpost-newsapp",
@@ -255,25 +257,34 @@ export const Bio = {
       id: 2,
       title: "Fake News Detection",
       date: "July 2023",
-      description:
-      "Leveraging NLP techniques to analyze linguistic patterns and semantic cues within news articles, social media posts and other textual resources."  ,    
-      image:
+      description: 
+        "Fake News Detection leverages Natural Language Processing (NLP) techniques and machine learning models to analyze linguistic patterns, semantic cues, and metadata in news articles, social media posts, and other text resources. The system uses Keras and TensorFlow for training deep learning models and includes a React-based web interface for seamless interaction. It aims to combat misinformation by providing accurate predictions with real-time feedback.",
+      image: 
         "https://s3.amazonaws.com/libapps/accounts/987/images/fnewsinvation.jpg",
-      tags: ["Python", "Keras", "TensorFlow", "NLP", "Pickle", "React"],
+      tags: [
+        "Python", 
+        "Keras", 
+        "TensorFlow", 
+        "NLP", 
+        "Pickle", 
+        "React", 
+        "Flask", 
+        "Deep Learning"
+      ],
       category: "machine learning",
       github: "https://github.com/codercake/fake-news-prediction/tree/main",
     },
     {
       id: 3,
-      title: "Readerly",
-      date: "March 2024",
-      description:
-        "Enables asynchronous event driven architecture for efficient concurrent user requests. Utilizes DOM for streamlined storage and retrieval of user-generated stories, supporting both public and private access levels, enhancing security and accessibility.",
-      image:
-        "https://techcrunch.com/wp-content/uploads/2022/12/readerly-app.jpeg",
-      tags: ["NextJs", "SQL", "MongoDB", "Node JS", "Firestore"],
-      category: "web apps",
-      github: "https://github.com/codercake/ocean-of-pdf",
+      title: "GigHive",
+      date: "October 2024",
+      description: 
+        "GigHive is a job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that provides features like job listings, advanced search and filters, personalized user profiles, real-time notifications, secure authentication with token-based access, and a responsive design. The platform enhances the job-seeking and recruitment experience with a modern, user-friendly interface.",
+      image: 
+        "https://private-user-images.githubusercontent.com/117517206/399568940-eb7a212c-0981-4567-82e8-7d863395ac5b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3NDE3NTAsIm5iZiI6MTczNTc0MTQ1MCwicGF0aCI6Ii8xMTc1MTcyMDYvMzk5NTY4OTQwLWViN2EyMTJjLTA5ODEtNDU2Ny04MmU4LTdkODYzMzk1YWM1Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwMVQxNDI0MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02Y2RmZmU0MTgyYjZiM2JlYmI3NGFlOGYzMmJhOTM0OTZkNWQyMjMyYmY2MGMzMTc2ZjE3NDc1MmI1NzVkMGNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.nW7R3Od3iSv3-_X-uxVOIgp6uN4xxPq2CN6-tWk4W-8",
+      tags: ["React.js", "MongoDB", "Express.js", "Node.js", "JWT Authentication"],
+      category: "web app",
+      github: "https://github.com/codercake/gighive-jobportal",
     },
   ];
   
