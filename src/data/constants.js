@@ -12,7 +12,7 @@ export const Bio = {
 
   github: "https://github.com/codercake",
   resume:
-    "https://drive.google.com/file/d/1Egc52Yvcl3pHDv_cYuK6oBmkLmc4rG9s/view?usp=sharing",
+    "https://drive.google.com/file/d/1DNu6TLHgA4t2hjQnJiHAT86ILj-maQlN/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
   unstop: "https://unstop.com/u/codercake?edit=profile",
 };
@@ -131,11 +131,6 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
         {
-          name: "Netlify",
-          image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-        },
-        {
           name: "VS Code",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -143,7 +138,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://yt3.googleusercontent.com/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA=s900-c-k-c0x00ffffff-no-rj",
+            "https://yt3.googleusercontent.com/XRzDTgEa9GybH_Uk21E9ri6_iYh-9gbyZzhiEBCnLjISgjTorjMiu7IwpChUMf2lLpEdX6ufDA=s900-c-k-c0x00ffffff-no-rj",
         },
         {
           name: "Figma",
@@ -160,7 +155,7 @@ export const Bio = {
       id: 1,
       img: "https://res.cloudinary.com/svidhya/image/upload/v1677931121/mfl7cnlvkz8evguhbi7y.jpg",
       role: "Front-End Web Developer Intern",
-      company: "Shuddhi Vidya.",
+      company: "Shuddhi Vidya",
       date: "Aug 2023 - July 2023",
       desc: "I have honed my skills in transforming creative concepts into functional, visually appealing web solutions. Passionate about crafting engaging interfaces, I specialize in collaborating with cross-functional teams to drive projects from ideation to execution.",
       skills: [
@@ -178,7 +173,7 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
       role: "Frontend Engineer Intern",
       company: "Neurobit",
-      date: "Oct 2023- Nov 2023",
+      date: "Oct 2023 - Nov 2023",
       desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
       skills: [
         "HTML5",
@@ -186,8 +181,8 @@ export const Bio = {
         "TypeScript",
         "React.js",
         "Vue.js",
-        "Node Js",
-        "Next Js",
+        "NodeJs",
+        "NextJs",
       ],
     },
     {
@@ -208,8 +203,27 @@ export const Bio = {
         "Communication",
       ],
     },
+    {
+      id: 4,
+      img: "https://pbs.twimg.com/profile_images/1800736411110506496/VV_h1yaj_400x400.jpg",
+      role: "Full Stack Intern",
+      company: "Zidio Development",
+      date: "Aug 2024 - Dec 2024",
+      desc: "Developed and optimized the GigHive job portal, integrating advanced search, real-time notifications, and personalized dashboards. Collaborated with cross-functional teams to deliver secure and scalable solutions using the MERN stack.",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "REST APIs",
+        "JavaScript",
+        "Authentication (JWT, bcrypt)",
+        "Responsive Design",
+        "Version Control (Git/GitHub)",
+      ],
+    },
   ];
-    
+  
   export const education = [
     {
       id: 0,
@@ -281,10 +295,11 @@ export const Bio = {
       description: 
         "GigHive is a job portal built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that provides features like job listings, advanced search and filters, personalized user profiles, real-time notifications, secure authentication with token-based access, and a responsive design. The platform enhances the job-seeking and recruitment experience with a modern, user-friendly interface.",
       image: 
-        "https://private-user-images.githubusercontent.com/117517206/399568940-eb7a212c-0981-4567-82e8-7d863395ac5b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU3NDE3NTAsIm5iZiI6MTczNTc0MTQ1MCwicGF0aCI6Ii8xMTc1MTcyMDYvMzk5NTY4OTQwLWViN2EyMTJjLTA5ODEtNDU2Ny04MmU4LTdkODYzMzk1YWM1Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwMVQxNDI0MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02Y2RmZmU0MTgyYjZiM2JlYmI3NGFlOGYzMmJhOTM0OTZkNWQyMjMyYmY2MGMzMTc2ZjE3NDc1MmI1NzVkMGNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.nW7R3Od3iSv3-_X-uxVOIgp6uN4xxPq2CN6-tWk4W-8",
+        "https://private-user-images.githubusercontent.com/117517206/403798062-18a544b8-f877-4568-98fb-47f252b2d38a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzcwMjEyMjIsIm5iZiI6MTczNzAyMDkyMiwicGF0aCI6Ii8xMTc1MTcyMDYvNDAzNzk4MDYyLTE4YTU0NGI4LWY4NzctNDU2OC05OGZiLTQ3ZjI1MmIyZDM4YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDExNlQwOTQ4NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZmRjZjE5NWFjMjcyMDA4ZTBmYzdhYzIxYzk4YWQ4MzU0YTc3MzAyYjdmNGQyNjQ3YTNlYTFhYTI2NmUzOGVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.zXANafDmWx7OdDJMfzR9eZ1nkuNbPIKzmUKJ0jROOXE",
       tags: ["React.js", "MongoDB", "Express.js", "Node.js", "JWT Authentication"],
       category: "web app",
       github: "https://github.com/codercake/gighive-jobportal",
+      webapp: "https://gighive-client.vercel.app/",
     },
   ];
   
