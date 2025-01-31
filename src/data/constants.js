@@ -12,7 +12,7 @@ export const Bio = {
 
   github: "https://github.com/codercake",
   resume:
-    "https://drive.google.com/file/d/1DNu6TLHgA4t2hjQnJiHAT86ILj-maQlN/view?usp=sharing",
+    "https://drive.google.com/file/d/1GGEamTLJ63b4vsIdf_bIGcFE0YRuGOSA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
   unstop: "https://unstop.com/u/codercake?edit=profile",
 };
