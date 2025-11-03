@@ -16,7 +16,7 @@ export const Bio = {
 
   github: "https://github.com/codercake",
   resume:
-    "https://drive.google.com/file/d/1zUcNKfE_TfmOdsJAHqnSjij_9YBSV6bh/view?usp=sharing",
+    "https://drive.google.com/file/d/1uj_tmJS-htbzSjSZ5KxXKMIxlLwhI21u/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
 };
   
@@ -77,10 +77,22 @@ export const skills = [
       },
       {
         name: "Express.js",
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+        image: "https://kinsta.com/wp-content/uploads/2022/04/express-1.png",
+      },
+      {
+        name: "REST API",
+        image: "https://cdn-icons-png.flaticon.com/512/4781/4781517.png",
+      },
+      {
+        name: "Flask",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_wqQda2BHb3TW1uS_lOE6E0nNbP-AKJAlsVQsdt7VtagaSoOnustTQ3kYQTa2B5Sv_w&usqp=CAU",
+      },
+      {
+        name: "FastAPI",
+        image: "https://cdn.vectorstock.com/i/1000v/38/92/logo-of-fastapi-python-web-framework-vector-50653892.jpg",
       },
     ],
-  },
+  },  
   {
     title: "Database",
     skills: [
@@ -121,63 +133,79 @@ export const skills = [
   },
 ];
 
-  
-  export const experiences = [
-    {
-      id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
-      date: "Oct 2023 - Nov 2023",
-      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-      skills: [
-        "HTML5",
-        "CSS3",
-        "TypeScript",
-        "React.js",
-        "Vue.js",
-        "NodeJs",
-        "NextJs",
-      ],
-    },
-    {
-      id: 3,
-      img: "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
-      role: "Open Source Contributor",
-      company: "GirlScript Summer of Code",
-      desc: "Participated in over 30 projects, initiating more than 20 pull requests.",
-      skills: [
-        "Git",
-        "GitHub",
-        "CI/CD Pipelines",
-        "Problem Solving",
-        "Testing",
-        "Issue Tracking",
-        "Docker",
-        "Firebase",
-        "Communication",
-      ],
-    },
-    {
-      id: 4,
-      img: "https://pbs.twimg.com/profile_images/1800736411110506496/VV_h1yaj_400x400.jpg",
-      role: "Full Stack Intern",
-      company: "Zidio Development",
-      date: "Aug 2024 - Dec 2024",
-      desc: "Developed and optimized the GigHive job portal, integrating advanced search, real-time notifications, and personalized dashboards. Collaborated with cross-functional teams to deliver secure and scalable solutions using the MERN stack.",
-      skills: [
-        "MongoDB",
-        "Express.js",
-        "React.js",
-        "Node.js",
-        "REST APIs",
-        "JavaScript",
-        "Authentication (JWT, bcrypt)",
-        "Responsive Design",
-        "Version Control (Git/GitHub)",
-      ],
-    },
-  ];
+export const experiences = [
+  {
+    id: 1,
+    img: "https://foundersbook.eclublbs.com/wp-content/uploads/2023/01/impactree-logo.jpeg",
+    role: "Junior Frontend Developer",
+    company: "Impactree Data Technologies",
+    date: "July 2025 – Present",
+    desc: "Leading frontend development for Impactree’s production platform using Next.js and Angular. Built dynamic dashboards with ApexCharts for real-time analytics, optimized Lighthouse performance scores, and modularized legacy code for faster feature delivery. Collaborating with design and backend teams to ship accessible, high-performance web experiences.",
+    skills: [
+      "Next.js",
+      "Angular",
+      "ApexCharts",
+      "TypeScript",
+      "SSR (Server-Side Rendering)",
+      "Performance Optimization",
+      "Accessibility (WCAG)"
+    ],
+  },
+  {
+    id: 2,
+    img: "https://pbs.twimg.com/profile_images/1800736411110506496/VV_h1yaj_400x400.jpg",
+    role: "Full Stack Intern",
+    company: "Zidio Development",
+    date: "Aug 2024 - Dec 2024",
+    desc: "Built and optimized GigHive, a MERN-based job portal featuring advanced search, real-time notifications, and personalized dashboards. Improved UI responsiveness and authentication security while collaborating across teams to enhance scalability and reliability.",
+    skills: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "REST APIs",
+      "JavaScript",
+      "JWT Authentication",
+      "Responsive Design",
+      "Git/GitHub",
+    ],
+  },
+  {
+    id: 3,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    role: "Frontend Engineer Intern",
+    company: "Neurobit",
+    date: "Oct 2023 - Nov 2023",
+    desc: "Developed UI components for Neurobit’s web platform using ReactJS, Redux, and Material UI. Focused on implementing modular, maintainable, and performant interfaces aligned with product goals.",
+    skills: [
+      "React.js",
+      "Redux",
+      "Material UI",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "Next.js",
+    ],
+  },
+  {
+    id: 4,
+    img: "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
+    role: "Open Source Contributor",
+    company: "GirlScript Summer of Code",
+    date: "May 2023 - Aug 2023",
+    desc: "Contributed to 30+ open-source projects, raising and merging multiple PRs focused on bug fixes, documentation improvements, and new feature implementations. Strengthened version control practices and cross-project collaboration through Git workflows.",
+    skills: [
+      "Git",
+      "GitHub",
+      "Open Source Contribution",
+      "Testing",
+      "CI/CD",
+      "Documentation",
+      "Team Collaboration",
+    ],
+  },
+];
+
   
   export const education = [
     {
