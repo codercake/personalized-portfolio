@@ -10,14 +10,13 @@ export const Bio = {
     "Bookworm",
     "Freelancer",
   ],
-  description:
-    `Hello, there.
-  I'm Ishitha, a proactive individual eagerly seeking opportunities to diversify and strengthen my skill set. With a passion for coding, web development and emerging technologies, I thrive on challenges that set me apart. When I'm not tinkering with  my laptop, I enjoy reading novels and browsing informative content!`,
-
+  description: `Hello, there.
+  I'm Ishitha, a proactive individual eagerly seeking opportunities to diversify and strengthen my skill set. With a passion for coding, web development and emerging technologies, I thrive on challenges that set me apart. When I'm not tinkering with my laptop, I enjoy reading novels and browsing informative content!`,
+  
   github: "https://github.com/codercake",
-  resume:
-    "https://drive.google.com/file/d/1nEm0R6XduooV7U2Hco6Dp3mKRUML-mbp/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
+ resumeView: "/Ishitha_Jain-Resume.pdf",
+ resumeDownload: "/Ishitha_Jain-Resume.pdf",  
+ linkedin: "https://www.linkedin.com/in/ishitha-chaudhary",
 };
   
 console.log(Bio.resume);

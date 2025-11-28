@@ -13,7 +13,6 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education/Education.js";
 import ProjectDetails from "./components/ProjectDetails";
-import ResumeButton from "./components/Resume/Resume.js"; 
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -57,9 +56,7 @@ function App() {
             <Contact />
           </Wrapper>
 
-          {/* ✅ Added Resume Download Button Below the Footer */}
           <div style={{ textAlign: "center", margin: "20px 0" }}>
-            <ResumeButton />
           </div>
 
           <Footer />
