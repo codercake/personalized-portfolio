@@ -138,7 +138,7 @@ export const experiences = [
     img: "https://foundersbook.eclublbs.com/wp-content/uploads/2023/01/impactree-logo.jpeg",
     role: "Junior Frontend Developer",
     company: "Impactree Data Technologies",
-    date: "July 2025 – Present",
+    date: "July 2025 – Nov 2025",
     desc: "Leading frontend development for Impactree’s production platform using Next.js and Angular. Built dynamic dashboards with ApexCharts for real-time analytics, optimized Lighthouse performance scores, and modularized legacy code for faster feature delivery. Collaborating with design and backend teams to ship accessible, high-performance web experiences.",
     skills: [
       "Next.js",
