@@ -3,15 +3,15 @@ import wiresharkImage from '../images/wireshark.png';
 import gighiveImage from '../images/gighiveImage.png';
 
 export const Bio = {
-  name: "Ishitha Chaudhary",
+  name: "Ishitha Jain",
   roles: [
     "Full-Stack Developer",
     "Public Speaker",
     "Bookworm",
     "Freelancer",
   ],
-  description: `Hello, there.
-  I'm Ishitha, a proactive individual eagerly seeking opportunities to diversify and strengthen my skill set. With a passion for coding, web development and emerging technologies, I thrive on challenges that set me apart. When I'm not tinkering with my laptop, I enjoy reading novels and browsing informative content!`,
+  description: `Hello, there!
+  I'm Ishitha, a Full Stack Developer with 1+ year of professional experience designing, developing, and deploying scalable, production-grade web applications for enterprise clients. Proficient across the full SDLC — from architecting RESTful APIs and microservices to crafting responsive, accessible UIs. Passionate about performance optimization, clean architecture, and shipping reliable software at scale.`,
   
   github: "https://github.com/codercake",
  resumeView: "/Ishitha_Jain-Resume.pdf",
@@ -28,10 +28,6 @@ export const skills = [
       {
         name: "React Js",
         image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      },
-      {
-        name: "Redux",
-        image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
         name: "Next Js",
@@ -62,8 +58,16 @@ export const skills = [
         image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
-        name: "Material UI",
-        image: "https://mui.com/static/logo.png",
+        name: "Vue.js",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+      },
+      {
+        name: "TanStack Query",
+        image: "https://avatars.githubusercontent.com/u/72518640?s=200&v=4",
+      },
+      {
+        name: "ApexCharts",
+        image: "https://apexcharts.com/wp-content/uploads/2018/04/apexcharts-logo.png",
       },
     ],
   },
@@ -79,6 +83,10 @@ export const skills = [
         image: "https://kinsta.com/wp-content/uploads/2022/04/express-1.png",
       },
       {
+        name: "NestJS",
+        image: "https://nestjs.com/img/logo-small.svg",
+      },
+      {
         name: "REST API",
         image: "https://cdn-icons-png.flaticon.com/512/4781/4781517.png",
       },
@@ -90,28 +98,60 @@ export const skills = [
         name: "FastAPI",
         image: "https://cdn.vectorstock.com/i/1000v/38/92/logo-of-fastapi-python-web-framework-vector-50653892.jpg",
       },
+      {
+        name: "JWT",
+        image: "https://jwt.io/img/pic_logo.svg",
+      },
+      {
+        name: "OAuth 2.0",
+        image: "https://cdn-icons-png.flaticon.com/512/2504/2504713.png",
+      },
     ],
   },  
   {
     title: "Database",
     skills: [
       {
+        name: "PostgreSQL",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
         name: "MongoDB",
         image: "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png",
       },
       {
-        name: "SQL",
-        image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+        name: "MySQL",
+        image: "https://labs.mysql.com/common/logos/mysql-logo.svg",
+      },
+      {
+        name: "Redis",
+        image: "https://redis.io/wp-content/uploads/2024/04/Logotype.svg",
+      },
+      {
+        name: "Prisma",
+        image: "https://www.svgrepo.com/show/374002/prisma.svg",
+      },
+    ],
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: [
+      {
+        name: "AWS EC2",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      },
+      {
+        name: "Docker",
+        image: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+      },
+      {
+        name: "Vercel",
+        image: "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png",
       },
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
       {
         name: "Git",
         image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
@@ -128,26 +168,48 @@ export const skills = [
         name: "Docker",
         image: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
       },
+      {
+        name: "Sentry",
+        image: "https://cdn.worldvectorlogo.com/logos/sentry-3.svg",
+      },
     ],
   },
 ];
 
 export const experiences = [
   {
+    id: 0,
+    img: "https://placehold.co/200x200?text=Solique",
+    role: "Frontend Engineer",
+    company: "Solique Global Technologies Pvt. Ltd.",
+    date: "Jan 2026 – Apr 2026",
+    desc: "Architected and delivered 3+ scalable frontend modules using ReactJS, TypeScript, and Tailwind CSS, cutting average feature delivery time by 20% through reusable component libraries. Engineered 15+ reusable UI components across multiple product lines, reducing redundant code by 30%. Integrated 10+ REST APIs with centralized error handling, reducing API-related bug reports by 25%. Optimized rendering performance via lazy loading and React.memo, reducing unnecessary re-renders by 40%.",
+    skills: [
+      "ReactJS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Axios",
+      "REST APIs",
+      "React.memo",
+      "ESLint",
+      "Agile / Scrum",
+    ],
+  },
+  {
     id: 1,
     img: "https://foundersbook.eclublbs.com/wp-content/uploads/2023/01/impactree-logo.jpeg",
     role: "Junior Frontend Developer",
     company: "Impactree Data Technologies",
     date: "July 2025 – Nov 2025",
-    desc: "Leading frontend development for Impactree’s production platform using Next.js and Angular. Built dynamic dashboards with ApexCharts for real-time analytics, optimized Lighthouse performance scores, and modularized legacy code for faster feature delivery. Collaborating with design and backend teams to ship accessible, high-performance web experiences.",
+    desc: "Led end-to-end development and launch of the company production website using Next.js, ReactJS, and TypeScript, achieving a Lighthouse performance score of 92. Developed interactive analytics dashboards using ApexCharts for real-time KPI visualization, reducing manual reporting effort by 40%. Refactored legacy jQuery-based UI into modular React components, reducing codebase size by 35% and cutting new feature implementation time by 50%. Resolved cross-browser compatibility issues, eliminating 100% of reported rendering bugs.",
     skills: [
       "Next.js",
-      "Angular",
-      "ApexCharts",
+      "ReactJS",
       "TypeScript",
-      "SSR (Server-Side Rendering)",
+      "ApexCharts",
       "Performance Optimization",
-      "Accessibility (WCAG)"
+      "Lighthouse",
+      "Cross-browser Compatibility",
     ],
   },
   {
@@ -212,8 +274,8 @@ export const experiences = [
       img: "https://imgs.search.brave.com/-yQluBLk01tM2SbXmjl7sbv5dkj38OsqqHEa691MKpI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/YS9hYy9IaW5kdXN0/YW5fSW5zdGl0dXRl/X29mX1RlY2hub2xv/Z3lfYW5kX1NjaWVu/Y2VfbG9nby5wbmcv/MjIwcHgtSGluZHVz/dGFuX0luc3RpdHV0/ZV9vZl9UZWNobm9s/b2d5X2FuZF9TY2ll/bmNlX2xvZ28ucG5n",
       school: "Hindustan Institute of Technology and Science, Chennai",
       date: "2022 - 2025",
-      grade: "9.53 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree Computer Applications at Hindustan Institue of Technology and Science, Chennai. I have completed 3  semesters and have a CGPA of 9.53. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at HITS, where I am learning and working on exciting projects with a team of talented developers.",
+      grade: "9.56 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree Computer Applications at Hindustan Institue of Technology and Science, Chennai. I have completed 3  semesters and have a CGPA of 9.56. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at HITS, where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Bachelor's in Computer Applications- BCA, Cybersecurity",
     },
     {
@@ -230,19 +292,19 @@ export const experiences = [
   export const projects = [
     {
       id: 1,
-      title: "Network Analysis and Report Generation App with ML-based Attack Detection",
+      title: "Packet2Page — Network Traffic Analysis & Report Generator",
       date: "March 2025",
       description: 
-        "A web app that captures and analyzes network traffic using Wireshark, generates detailed reports, and detects attacks with ML. It supports live capture, PCAP uploads, filtering, and multi-format exports, making it useful for network monitoring and cybersecurity analysis.",
+        "A full-stack network forensics tool enabling security analysts to upload PCAP files and auto-generate HTML, JSON, and CSV reports, replacing a fully manual workflow. Developed Flask APIs for packet parsing and traffic summarization, processing multi-MB PCAP files in under 10 seconds. Automated report generation using Pandas, reducing manual analysis time by 60%. Designed React dashboards with protocol distribution charts and traffic timelines.",
       image: 
           wiresharkImage,
       tags: [
+        "ReactJS", 
         "Flask", 
-        "Tshark", 
-        "Pyshark", 
-        "pandas", 
-        "sci-kit learn", 
-        "React", 
+        "MongoDB",
+        "Pandas", 
+        "Python", 
+        "Matplotlib",
         "ChartJS",
       ],
       category: "web app",
@@ -280,6 +342,45 @@ export const experiences = [
       webapp: "https://gighive-client.vercel.app/",
     },
     {
+      id: 5,
+      title: "Rubicr — Enterprise ESG Data Intelligence Platform",
+      date: "2025",
+      description: 
+        "Engineered multi-tenant admin and client-facing dashboards for ESG data ingestion, normalization, and visualization, improving operational efficiency by 50%. Designed NestJS REST APIs to process normalized ESG metrics, reducing data pipeline latency by 35%. Built real-time KPI and sustainability benchmarking dashboards, cutting report generation from hours to minutes. Developed SAP ERP and Zoho Analytics data connectors, saving the operations team 10+ hours per week.",
+      image: 
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
+      tags: [
+        "Next.js",
+        "ReactJS",
+        "NestJS",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "TypeScript",
+      ],
+      category: "web app",
+    },
+    {
+      id: 6,
+      title: "LoopSphere — Real-Time Video Conferencing Platform",
+      date: "2025",
+      description: 
+        "Architected a full-featured real-time video conferencing platform supporting meeting rooms, live chat, screen sharing, and participant controls for concurrent multi-user sessions. Developed secure REST APIs for room lifecycle management with role-based permissions, supporting up to 50 concurrent participants per session. Integrated Sentry for real-time error tracking, achieving a less than 1% unhandled exception rate in production.",
+      image: 
+        "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800",
+      tags: [
+        "ReactJS",
+        "TanStack Query",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Clerk",
+        "Stream SDK",
+        "Sentry",
+      ],
+      category: "web app",
+    },
+    {
       id: 4,
       title: "Fake News Detection",
       date: "July 2023",
@@ -301,5 +402,3 @@ export const experiences = [
       github: "https://github.com/codercake/fake-news-prediction/tree/main",
     },
   ];
-  
-  
